@@ -1,4 +1,4 @@
-# Bulk Unsub Portal
+# SMS Weather Advisory Service
 
 ## Introduction
 This README file will guide you on how to set up and run your PHP project on a local WAMP/XAMPP server with MySQL. 
