@@ -1,0 +1,195 @@
+<?php /*
+
+
+  session_start();
+  $servername		= "dmast01";
+  $username		= "root";
+  $password		= "root";
+  $dbname			= "test_agri_v2";
+
+  $conn = new mysqli($servername, $username, $password, $dbname);
+
+  $wdc_servername		= "dmast01.t";
+  $wdc_username		= "root";
+  $wdc_password		= "root";
+  $wdc_dbname		= "web_doc";
+
+  $wdc_conn = new mysqli($wdc_servername, $wdc_username, $wdc_password, $wdc_dbname);
+
+  $biServername		= "dmast01.t";
+  $biUsername		= "root";
+  $biPassword		= "root";
+  $biDbname		= "magri_location_db";
+
+  $biConn = new mysqli($biServername, $biUsername, $biPassword, $biDbname);
+
+
+
+  // watson Aangan DATABASE
+  $ka_servername		= "dmast01";
+  $ka_username		= "root";
+  $ka_password		= "root";
+  $ka_dbname		= "magri_women";
+
+  $ka_conn = new mysqli($ka_servername, $ka_username, $ka_password, $ka_dbname);
+
+ */ ?>
+
+
+
+<?php /*
+  /////	session_start();
+  //	$servername		= "damg2.t";
+  //	$username		= "root";
+  //	$password		= "root";
+  //	$dbname			= "test_agri_v2";
+
+  session_start();
+  $servername             = "dmast01.t";
+  $username               = "root";
+  $password               = "root";
+  $dbname                 = "test_agri_v2";
+
+  $conn = new mysqli($servername, $username, $password, $dbname);
+
+
+  $biServername           = "dmast01.t";
+  $biUsername             = "root";
+  $biPassword             = "root";
+  $biDbname               = "magri_location_db";
+
+  $biConn = new mysqli($biServername, $biUsername, $biPassword, $biDbname);
+  ///
+  $wdc_servername		= "localhost";
+  $wdc_username		= "root";
+  $wdc_password		= "";
+  $wdc_dbname		= "web_doc";
+
+  $wdc_conn = new mysqli($wdc_servername, $wdc_username, $wdc_password, $wdc_dbname);
+
+
+
+  // watson Aangan DATABASE
+  $ka_servername          = "dmast01.t";
+  $ka_username            = "root";
+  $ka_password            = "root";
+  $ka_dbname              = "magri_women";
+
+  $ka_conn = new mysqli($ka_servername, $ka_username, $ka_password, $ka_dbname);
+
+
+
+
+ */ ?>
+<?php
+
+session_start();
+$servername = "localhost";
+$username = "root";
+$password = "";
+$dbname = "test_agri_v2";
+
+$conn = new mysqli($servername, $username, $password, $dbname);
+
+
+$wdc_servername = "localhost";
+$wdc_username = "root";
+$wdc_password = "";
+$wdc_dbname = "test_agri_v2";
+
+$wdc_conn = new mysqli($wdc_servername, $wdc_username, $wdc_password, $wdc_dbname);
+
+$biServername = "localhost";
+$biUsername = "root";
+$biPassword = "";
+$biDbname = "test_agri_v2";
+
+$biConn = new mysqli($biServername, $biUsername, $biPassword, $biDbname);
+
+
+
+// watson Aangan DATABASE
+$ka_servername = "localhost";
+$ka_username = "root";
+$ka_password = "";
+$ka_dbname = "test_agri_v2";
+
+$ka_conn = new mysqli($ka_servername, $ka_username, $ka_password, $ka_dbname);
+//watson rose
+$km_servername = "localhost";
+$km_username = "root";
+$km_password = "";
+$km_dbname = "test_agri_v2";
+$km_conn = new mysqli($km_servername, $km_username, $km_password, $km_dbname);
+
+//watson bimma
+$kb_servername = "localhost";
+$kb_username = "root";
+$kb_password = "";
+$kb_dbname = "test_agri_v2";
+$kb_conn = new mysqli($kb_servername, $kb_username, $kb_password, $kb_dbname);
+
+//watson william
+$kk_servername = "localhost";
+$kk_username = "root";
+$kk_password = "";
+$kk_dbname = "test_agri_v2";
+$kk_conn = new mysqli($kk_servername, $kk_username, $kk_password, $kk_dbname);
+
+//watson jeewan
+$kj_servername = "localhost";
+$kj_username = "root";
+$kj_password = "";
+$kj_dbname = "test_agri_v2";
+$kj_conn = new mysqli($kj_servername, $kj_username, $kj_password, $kj_dbname);
+//radio magan
+
+$rm_servername = "localhost";
+$rm_username = "root";
+$rm_password = "";
+$rm_dbname = "test_agri_v2";
+$rm_conn = new mysqli($rm_servername, $rm_username, $rm_password, $rm_dbname);
+
+//
+$rm_servername = "localhost";
+$rm_username = "root";
+$rm_password = "";
+$rm_dbname = "test_agri_v2";
+$kn_conn = new mysqli($rm_servername, $rm_username, $rm_password, $rm_dbname);
+//crop_insurance
+$rm_servername = "localhost";
+$rm_username = "root";
+$rm_password = "";
+$rm_dbname = "test_agri_v2";
+$ci_conn = new mysqli($rm_servername, $rm_username, $rm_password, $rm_dbname);
+//zarai directory
+
+$zd_servername = "localhost";
+$zd_username = "root";
+$zd_password = "";
+$zd_dbname = "test_agri_v2";
+$zd_conn = new mysqli($zd_servername, $zd_username, $zd_password, $zd_dbname);
+
+
+//bulk_unsub for paid walls
+$bu_servername = "localhost";
+$bu_username = "root";
+$bu_password = "";
+$bu_dbname = "test_agri_v2";
+$bu_conn = new mysqli($bu_servername, $bu_username, $bu_password, $bu_dbname);
+//watson amdani
+$kad_servername = "localhost";
+$kad_username = "root";
+$kad_password = "";
+$kad_dbname = "test_agri_v2";
+$kad_conn = new mysqli($kad_servername, $kad_username, $kad_password, $kad_dbname);
+
+//watson tahafuz
+$kt_servername = "localhost";
+$kt_username = "root";
+$kt_password = "";
+$kt_dbname = "kt";
+$kt_conn = new mysqli($kt_servername, $kt_username, $kt_password, $kt_dbname);
+
+
+?>
